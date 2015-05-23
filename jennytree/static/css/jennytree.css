@@ -1,0 +1,9 @@
+/* CSS for JennytreeXBlock */
+
+.jennytree_block .count {
+    font-weight: bold;
+}
+
+.jennytree_block p {
+    cursor: pointer;
+}
