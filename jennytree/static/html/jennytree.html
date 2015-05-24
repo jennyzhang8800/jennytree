@@ -1,26 +1,21 @@
-<div class="jennytree_block">
-<p>JennytreeXBlock: count is now
-    <span class='count'>{self.count}</span> (click me to increment).
-</p>
-    <div class="jstree_block">
+<div class="jstree_block">
 
-        <h2>Diretory</h2>
-        <p>Choose a lab: <select onchange="selectLab()" id=selectLab>
-            <option>Lab1</option>
-            <option>Lab2</option>
-            <option>Lab3</option>
-            <option>Lab4</option>
-            <option>Lab5</option>
-            <option>Lab6</option>
-            <option>Lab7</option>
-            <option>Lab8</option>
-        </select>
-        </p>
-        <!-- jstree container -->
-        <div id="jstree" class="jstree">
-        </div>
-
-        <input type="text" name="choosenfilename" value="" id="choosenfilename"/>
-        <input type="button" value="ReadFile" onclick="ReadFile();"/>
+    <h2>Diretory</h2>
+    <p>Choose a lab: <select onchange="selectLab()" id=selectLab>
+        <option>Lab1</option>
+        <option>Lab2</option>
+        <option>Lab3</option>
+        <option>Lab4</option>
+        <option>Lab5</option>
+        <option>Lab6</option>
+        <option>Lab7</option>
+        <option>Lab8</option>
+    </select>
+    </p>
+    <!-- jstree container -->
+    <div id="jstree" class="jstree">
     </div>
+
+    <input type="text" name="choosenfilename" value="" id="choosenfilename"/>
+    <input type="button" value="ReadFile" onclick="ReadFile();"/>
 </div>
